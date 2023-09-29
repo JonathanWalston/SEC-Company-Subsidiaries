@@ -40,7 +40,7 @@ for ticker in filtered_companies['TICKER SYMBOL']:
 # Step 4: Fetch subsidiaries
 def fetch_subsidiaries(cik):
     session = requests.Session()
-    headers = {'User-Agent': 'IndianaStateUniversity jwalston@sycamores.indstate.edu',
+    headers = {'User-Agent': 'Entity Email',
            'Accept-Encoding': 'gzip, deflate',
            'Host': 'www.sec.gov'}
     base_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/"
